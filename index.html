@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07050d">
+<title>Under the Sakura — for Sanchari</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@300;400;600&family=Zen+Old+Mincho:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head><body>
+<canvas id="c" aria-hidden="true"></canvas><div class="vig"></div><div class="bars"><i></i><i></i></div>
+<div id="wel"></div><div id="cap" aria-live="polite"></div>
+<div id="ctl">
+  <button id="mute" type="button" aria-pressed="false" aria-label="Mute sound">Sound on</button>
+  <button id="rm" type="button" aria-pressed="false" aria-label="Reduce motion">Reduce motion</button>
+</div>
+<button id="skip" type="button">Skip intro</button>
+<p id="cq" aria-live="polite"></p>
+<div class="slabel" id="lbA">Agnik</div><div class="slabel" id="lbB">Sanchari</div>
+
+<section class="scr" id="s4"><h2>Letters, sealed for you</h2><div id="env"></div><button class="btn" id="toF" type="button">Continue</button></section>
+<section class="scr" id="s5"><div id="lines"></div><div class="nm"></div><div class="dt"></div><button class="btn" id="rp" type="button">Watch again</button></section>
+<div id="paper" role="dialog" aria-modal="true" aria-label="Letter"><div class="sheet" id="sheet"></div><button id="cl" type="button">Close</button></div>
+<div id="flash"></div><div id="fin"><img alt=""></div>
+<div id="veil"><h1 id="vt"></h1><button class="btn" id="begin" type="button">Begin</button><small>Best with sound on</small></div>
+<noscript><p style="position:fixed;inset:0;z-index:99;display:grid;place-items:center;background:#07050d;color:#fff;font-family:Georgia,serif">Please enable JavaScript to watch this little film.</p></noscript>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/three.min.js"></script>
+<script src="vendor/three-postfx.js"></script>
+<script src="js/config.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/scenes.js"></script>
+<script src="js/characters.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/main.js"></script>
+</body></html>
